@@ -1,7 +1,112 @@
-<!DOCTYPE web-app PUBLIC
- "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
- "http://java.sun.com/dtd/web-app_2_3.dtd" >
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+	version="4.0">
 
-<web-app>
-  <display-name>Archetype Created Web Application</display-name>
+	<display-name>Archetype Created Web Application</display-name>
+	<servlet>
+		<display-name>loginController</display-name>
+		<servlet-name>loginController</servlet-name>
+
+		<servlet-class>filmografia.controller.loginController</servlet-class>
+	</servlet>
+	<servlet>
+		<display-name>registrarController</display-name>
+		<servlet-name>registrarController</servlet-name>
+		<servlet-class>filmografia.controller.registrarController</servlet-class>
+	</servlet>
+	<servlet>
+		<display-name>mantenimientoController</display-name>
+		<servlet-name>mantenimientoController</servlet-name>
+		<servlet-class>filmografia.controller.mantenimientoController</servlet-class>
+	</servlet>
+	<servlet>
+		<description>
+		</description>
+		<display-name>pruebaController</display-name>
+		<servlet-name>pruebaController</servlet-name>
+		<servlet-class>filmografia.controller.pruebaController</servlet-class>
+	</servlet>
+	<servlet>
+		<description>
+		</description>
+		<display-name>altaPeliculaController</display-name>
+		<servlet-name>altaPeliculaController</servlet-name>
+		<servlet-class>filmografia.controller.altaPeliculaController</servlet-class>
+	</servlet>
+	<servlet>
+		<description>
+		</description>
+		<display-name>modificarPeliculaController</display-name>
+		<servlet-name>modificarPeliculaController</servlet-name>
+		<servlet-class>filmografia.controller.modificarPeliculaController</servlet-class>
+	</servlet>
+	<servlet>
+		<description>
+		</description>
+		<display-name>borrarPeliculaController</display-name>
+		<servlet-name>borrarPeliculaController</servlet-name>
+		<servlet-class>filmografia.controller.borrarPeliculaController</servlet-class>
+	</servlet>
+	<servlet>
+		<description>
+		</description>
+		<display-name>consultarController</display-name>
+		<servlet-name>consultarController</servlet-name>
+		<servlet-class>filmografia.controller.consultarController</servlet-class>
+	</servlet>
+	<servlet>
+		<description>
+		</description>
+		<display-name>finController</display-name>
+		<servlet-name>finController</servlet-name>
+		<servlet-class>filmografia.controller.finController</servlet-class>
+	</servlet>
+	<servlet>
+		<description>
+		</description>
+		<display-name>finfinController</display-name>
+		<servlet-name>finfinController</servlet-name>
+		<servlet-class>filmografia.controller.finfinController</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>loginController</servlet-name>
+		<url-pattern>/loginController</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>registrarController</servlet-name>
+		<url-pattern>/registrarController</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>mantenimientoController</servlet-name>
+		<url-pattern>/mantenimientoController</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>pruebaController</servlet-name>
+		<url-pattern>/pruebaController</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>altaPeliculaController</servlet-name>
+		<url-pattern>/altaPeliculaController</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>modificarPeliculaController</servlet-name>
+		<url-pattern>/modificarPeliculaController</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>borrarPeliculaController</servlet-name>
+		<url-pattern>/borrarPeliculaController</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>consultarController</servlet-name>
+		<url-pattern>/consultarController</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>finController</servlet-name>
+		<url-pattern>/finController</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>finfinController</servlet-name>
+		<url-pattern>/finfinController</url-pattern>
+	</servlet-mapping>
 </web-app>

@@ -1,0 +1,6 @@
+filmografia\controller\loginController.class
+filmografia\bbdd\Conexion.class
+filmografia\model\Usuario.class
+filmografia\controller\mantenimientoController.class
+filmografia\controller\registrarController.class
+filmografia\model\Pelicula.class
