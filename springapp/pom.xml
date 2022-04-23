@@ -104,6 +104,6 @@
 		<finalName>springapp</finalName>
 	</build>
 	<properties>
-		<org.springframework.version>4.2.5.RELEASE</org.springframework.version>
+		<org.springframework.version>5.3.19</org.springframework.version>
 	</properties>
 </project>
